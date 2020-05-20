@@ -6,7 +6,7 @@ public class EmailManager {
        string [] toaddress = new string[]{address};
        
        email.setToAddresses(toaddress);
-        // Gearset CI job test
+        // Gearset second CI job test
         //Avoid to hit the max number of emails
         //mail.saveAsActivity = false;
         //mail.setTargetObjectId(userId);
