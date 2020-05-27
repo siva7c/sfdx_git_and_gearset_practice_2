@@ -6,6 +6,7 @@ public class EmailManager {
        string [] toaddress = new string[]{address};
        
        email.setToAddresses(toaddress);
+        //Master and feature_pack_deply comparing
         // Gearset second CI job test
         //Avoid to hit the max number of emails
         //mail.saveAsActivity = false;
